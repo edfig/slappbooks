@@ -1,0 +1,778 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "261bafd6-e58c-475d-9415-c1a9385d5243": {
+        "id": "261bafd6-e58c-475d-9415-c1a9385d5243",
+        "parent": null,
+        "name": "slappbooks",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "6ce22331-3d5d-4d2e-a5ff-a2f2b38257dd",
+          "0cafcfb9-14f8-4cdc-861f-299678af0759",
+          "10af9bcd-ac92-434b-9eb0-ca8ff233ec9b",
+          "1f616325-bebd-4cb6-9a59-efae98b7760d",
+          "d5e8f837-33f8-4736-ba1b-eb1f3aface18",
+          "02bc79d4-d52f-4002-b502-992569e9d409",
+          "d5925ac9-5dfa-4cc8-9963-15dd6fb40204",
+          "0fddcfbb-9df4-458a-a743-9f28159227fc",
+          "0b73f184-a777-475d-9741-bf94b7a4629a",
+          "8585b721-aeb2-4a48-978d-ddfca08566d1",
+          "65abaa92-243f-4c9a-988b-4aed7faac7a2",
+          "3e289213-2e08-453c-a6c3-139ee447fd70"
+        ],
+        "isRemovable": false,
+        "filePath": "slappbooks"
+      },
+      "6ce22331-3d5d-4d2e-a5ff-a2f2b38257dd": {
+        "id": "6ce22331-3d5d-4d2e-a5ff-a2f2b38257dd",
+        "parent": "261bafd6-e58c-475d-9415-c1a9385d5243",
+        "name": "add-transaction.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "slappbooks/add-transaction.js",
+        "triggers": [
+          {
+            "resourceName": "apigusEast1slappbooksapiaddTransactionpost",
+            "config": {
+              "selectedRegion": "us-east-1",
+              "apiMode": 0,
+              "apiName": "slappbooksapi",
+              "endpointType": "EDGE",
+              "resourceMode": 0,
+              "resourceName": "addTransaction",
+              "resourcePath": "/addTransaction",
+              "restMethod": "POST",
+              "stageMode": 0,
+              "stageName": "Prod"
+            }
+          }
+        ],
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "cursor": {
+          "lineNumber": 33,
+          "column": 93
+        }
+      },
+      "0cafcfb9-14f8-4cdc-861f-299678af0759": {
+        "id": "0cafcfb9-14f8-4cdc-861f-299678af0759",
+        "parent": "261bafd6-e58c-475d-9415-c1a9385d5243",
+        "name": "retrieve-transactions.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "slappbooks/retrieve-transactions.js",
+        "triggers": [
+          {
+            "resourceName": "apigusEast1slappbooksapigetTransactionListpost",
+            "config": {
+              "selectedRegion": "us-east-1",
+              "apiMode": 0,
+              "apiName": "slappbooksapi",
+              "endpointType": "EDGE",
+              "resourceMode": 0,
+              "resourceName": "getTransactionList",
+              "resourcePath": "/getTransactionList",
+              "restMethod": "POST",
+              "proxyIntegration": false,
+              "stageMode": 0,
+              "stageName": "Prod"
+            }
+          }
+        ],
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      },
+      "10af9bcd-ac92-434b-9eb0-ca8ff233ec9b": {
+        "id": "10af9bcd-ac92-434b-9eb0-ca8ff233ec9b",
+        "parent": "261bafd6-e58c-475d-9415-c1a9385d5243",
+        "name": "create-entity.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "slappbooks/create-entity.js",
+        "triggers": [
+          {
+            "resourceName": "apigusEast1slappbooksapicreateEntitypost",
+            "config": {
+              "selectedRegion": "us-east-1",
+              "apiMode": 0,
+              "apiName": "slappbooksapi",
+              "endpointType": "EDGE",
+              "resourceMode": 0,
+              "resourceName": "createEntity",
+              "resourcePath": "/createEntity",
+              "restMethod": "POST",
+              "proxyIntegration": false,
+              "stageMode": 0,
+              "stageName": "Prod"
+            }
+          }
+        ],
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      },
+      "1f616325-bebd-4cb6-9a59-efae98b7760d": {
+        "id": "1f616325-bebd-4cb6-9a59-efae98b7760d",
+        "parent": "261bafd6-e58c-475d-9415-c1a9385d5243",
+        "name": "get-transaction.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "slappbooks/get-transaction.js",
+        "triggers": [
+          {
+            "resourceName": "apigusEast1slappbooksapigetTransactionByIdget",
+            "config": {
+              "selectedRegion": "us-east-1",
+              "apiMode": 0,
+              "apiName": "slappbooksapi",
+              "endpointType": "EDGE",
+              "resourceMode": 0,
+              "resourceName": "getTransactionById",
+              "resourcePath": "/getTransactionById",
+              "restMethod": "GET",
+              "proxyIntegration": true,
+              "stageMode": 0,
+              "stageName": "Prod"
+            }
+          }
+        ],
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      },
+      "d5e8f837-33f8-4736-ba1b-eb1f3aface18": {
+        "id": "d5e8f837-33f8-4736-ba1b-eb1f3aface18",
+        "parent": "261bafd6-e58c-475d-9415-c1a9385d5243",
+        "name": "get-entity-list.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "slappbooks/get-entity-list.js",
+        "triggers": [
+          {
+            "resourceName": "apigusEast1slappbooksapigetEntityListget",
+            "config": {
+              "selectedRegion": "us-east-1",
+              "apiMode": 0,
+              "apiName": "slappbooksapi",
+              "endpointType": "EDGE",
+              "resourceMode": 0,
+              "resourceName": "getEntityList",
+              "resourcePath": "/getEntityList",
+              "restMethod": "GET",
+              "proxyIntegration": true,
+              "stageMode": 0,
+              "stageName": "Prod"
+            }
+          }
+        ],
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      },
+      "65abaa92-243f-4c9a-988b-4aed7faac7a2": {
+        "id": "65abaa92-243f-4c9a-988b-4aed7faac7a2",
+        "parent": null,
+        "name": "ConnectionManager.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "slappbooks/ConnectionManager.js",
+        "triggers": []
+      },
+      "02bc79d4-d52f-4002-b502-992569e9d409": {
+        "id": "02bc79d4-d52f-4002-b502-992569e9d409",
+        "parent": "261bafd6-e58c-475d-9415-c1a9385d5243",
+        "name": "insert-transaction-with-currency.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "slappbooks/insert-transaction-with-currency.js",
+        "triggers": [
+          {
+            "resourceName": "apigusEast1slappbooksapicreateTransactionWithCurrencyDifferencepost",
+            "config": {
+              "selectedRegion": "us-east-1",
+              "apiMode": 0,
+              "apiName": "slappbooksapi",
+              "endpointType": "EDGE",
+              "resourceMode": 0,
+              "resourceName": "createTransactionWithCurrencyDifference",
+              "resourcePath": "/createTransactionWithCurrencyDifference",
+              "restMethod": "POST",
+              "proxyIntegration": false,
+              "stageMode": 0,
+              "stageName": "Prod"
+            }
+          }
+        ],
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      },
+      "d5925ac9-5dfa-4cc8-9963-15dd6fb40204": {
+        "id": "d5925ac9-5dfa-4cc8-9963-15dd6fb40204",
+        "parent": "261bafd6-e58c-475d-9415-c1a9385d5243",
+        "name": "update-transaction.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "slappbooks/update-transaction.js",
+        "triggers": [
+          {
+            "resourceName": "apigusEast1slappbooksapiupdateTransactionpost",
+            "config": {
+              "selectedRegion": "us-east-1",
+              "apiMode": 0,
+              "apiName": "slappbooksapi",
+              "endpointType": "EDGE",
+              "resourceMode": 0,
+              "resourceName": "updateTransaction",
+              "resourcePath": "/updateTransaction",
+              "restMethod": "POST",
+              "proxyIntegration": false,
+              "stageMode": 0,
+              "stageName": "Prod"
+            }
+          }
+        ],
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      },
+      "0fddcfbb-9df4-458a-a743-9f28159227fc": {
+        "id": "0fddcfbb-9df4-458a-a743-9f28159227fc",
+        "parent": "261bafd6-e58c-475d-9415-c1a9385d5243",
+        "name": "delete-transaction.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "slappbooks/delete-transaction.js",
+        "triggers": [
+          {
+            "resourceName": "apigusEast1slappbooksapideleteTransactionpost",
+            "config": {
+              "selectedRegion": "us-east-1",
+              "apiMode": 0,
+              "apiName": "slappbooksapi",
+              "endpointType": "EDGE",
+              "resourceMode": 0,
+              "resourceName": "deleteTransaction",
+              "resourcePath": "/deleteTransaction",
+              "restMethod": "POST",
+              "proxyIntegration": false,
+              "stageMode": 0,
+              "stageName": "Prod"
+            }
+          }
+        ],
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      },
+      "0b73f184-a777-475d-9741-bf94b7a4629a": {
+        "id": "0b73f184-a777-475d-9741-bf94b7a4629a",
+        "parent": "261bafd6-e58c-475d-9415-c1a9385d5243",
+        "name": "get-monthly-transactions.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "slappbooks/get-monthly-transactions.js",
+        "triggers": [
+          {
+            "resourceName": "apigusEast1slappbooksapigetMonthlyTransactionListpost",
+            "config": {
+              "selectedRegion": "us-east-1",
+              "apiMode": 0,
+              "apiName": "slappbooksapi",
+              "endpointType": "EDGE",
+              "resourceMode": 0,
+              "resourceName": "getMonthlyTransactionList",
+              "resourcePath": "/getMonthlyTransactionList",
+              "restMethod": "POST",
+              "proxyIntegration": false,
+              "stageMode": 0,
+              "stageName": "Prod"
+            }
+          }
+        ],
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      },
+      "8585b721-aeb2-4a48-978d-ddfca08566d1": {
+        "id": "8585b721-aeb2-4a48-978d-ddfca08566d1",
+        "parent": "261bafd6-e58c-475d-9415-c1a9385d5243",
+        "name": "delete-entity.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "slappbooks/delete-entity.js",
+        "triggers": [
+          {
+            "resourceName": "apigusEast1slappbooksapideleteEntitypost",
+            "config": {
+              "selectedRegion": "us-east-1",
+              "apiMode": 0,
+              "apiName": "slappbooksapi",
+              "endpointType": "EDGE",
+              "resourceMode": 0,
+              "resourceName": "deleteEntity",
+              "resourcePath": "/deleteEntity",
+              "restMethod": "POST",
+              "proxyIntegration": false,
+              "stageMode": 0,
+              "stageName": "Prod"
+            }
+          }
+        ],
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      },
+      "3e289213-2e08-453c-a6c3-139ee447fd70": {
+        "id": "3e289213-2e08-453c-a6c3-139ee447fd70",
+        "parent": "261bafd6-e58c-475d-9415-c1a9385d5243",
+        "name": "trial-balance.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "slappbooks/trial-balance.js",
+        "triggers": [
+          {
+            "resourceName": "apigusEast1slappbooksapigetTrialBalancepost",
+            "config": {
+              "selectedRegion": "us-east-1",
+              "apiMode": 0,
+              "apiName": "slappbooksapi",
+              "endpointType": "EDGE",
+              "resourceMode": 0,
+              "resourceName": "getTrialBalance",
+              "resourcePath": "/getTrialBalance",
+              "restMethod": "POST",
+              "proxyIntegration": false,
+              "stageMode": 0,
+              "stageName": "Prod"
+            }
+          }
+        ],
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "openFiles": [
+      "6ce22331-3d5d-4d2e-a5ff-a2f2b38257dd"
+    ],
+    "currentFileId": "6ce22331-3d5d-4d2e-a5ff-a2f2b38257dd",
+    "resources": {
+      "rds-slappbooksdb": {
+        "name": "rds-slappbooksdb",
+        "type": "RDS",
+        "config": {
+          "operation": 0,
+          "editMode": true,
+          "rdsInstance": {
+            "rdsEngineType": "mysql",
+            "rdsEdition": "",
+            "rdsInstanceSpec": {
+              "dbInstanceClass": "db.t2.micro",
+              "dbLicenseModel": "general-public-license",
+              "dbEngineVersion": "5.7.19",
+              "undefined": "5.7.19"
+            },
+            "rdsSetting": {
+              "instanceIdentifier": "slappbooksdb",
+              "masterUsername": "slappbooksuser",
+              "masterPassword": "12345678"
+            },
+            "rdsDBOptions": {
+              "dbName": "slappbooksdb",
+              "dbPort": "3306"
+            },
+            "rdsInstanceArn": "",
+            "Host": "process.env.EndPoint_slappbooksdb",
+            "doesExist": false,
+            "initializationQuery": "CREATE TABLE entity (\n\tid INT AUTO_INCREMENT,\n\tname VARCHAR(255),\n\tcurrency VARCHAR(10),\n\ttype VARCHAR(255),\n\tPRIMARY KEY (id)\n);\nCREATE TABLE transaction (\n\tid INT AUTO_INCREMENT,\n\ttransaction_id VARCHAR(255) UNIQUE,\n\tset_id VARCHAR(255),\n\tdate DATE,\n\tentity_id INT NOT NULL,\n\tcheque_no VARCHAR(50),\n\tvoucher_no VARCHAR(50),\n\tis_credit INT,\n\tamount DOUBLE,\n\tnotes VARCHAR(255),\n\treconcile INT,\n\tPRIMARY KEY (id),\n\tFOREIGN KEY (entity_id) REFERENCES entity (id) ON DELETE CASCADE\n);\n\n\n\n\nCREATE TABLE conversion (\n\tid INT AUTO_INCREMENT,\n\ttransaction_id VARCHAR(255) NOT NULL,\n\tto_currency VARCHAR(10),\n\tfrom_currency VARCHAR(10),\n\trate DOUBLE,\n\tPRIMARY KEY (id),\n\tFOREIGN KEY (transaction_id) REFERENCES transaction (transaction_id) ON DELETE CASCADE\n);\n\ninsert into entity (id, name, currency, type) values (1, \"Cash\", \"LKR\", \"ASSETS\");\ninsert into entity (id, name, currency, type) values (2, \"Bank\", \"LKR\", \"ASSETS\");\ninsert into entity (id, name, currency, type) values (3, \"Sales\", \"LKR\", \"INCOME\");"
+          },
+          "rdsInstanceResources": [],
+          "mode": 0,
+          "projectRegion": "us-east-1",
+          "additionalFiles": [
+            {
+              "content": "module.exports = function () {\n this.dbConnections = [];\n this.dbConnections[\"slappbooksdb\"] = {\n host: process.env.EndPoint_rdsSlappbooksdb,\n port: process.env.Port_rdsSlappbooksdb,\n user: process.env.User_rdsSlappbooksdb,\n password: process.env.Password_rdsSlappbooksdb,\n database: \"slappbooksdb\"\n };\n};",
+              "filePath": "slappbooks/ConnectionManager.js",
+              "fileName": "ConnectionManager.js",
+              "showFileOnSideBar": true
+            }
+          ],
+          "params": {
+            "query": "SELECT id FROM entity WHERE name = ?",
+            "inserts": "entityArray"
+          },
+          "isGlobalEditMode": false,
+          "enableInject": true,
+          "isNewFromGlobal": false
+        },
+        "globallyEditable": true
+      },
+      "apigusEast1slappbooksapigetEntityListget": {
+        "name": "apigusEast1slappbooksapigetEntityListget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "slappbooksapi",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "getEntityList",
+          "resourcePath": "/getEntityList",
+          "restMethod": "GET",
+          "proxyIntegration": true,
+          "stageMode": 0,
+          "stageName": "Prod"
+        },
+        "globallyEditable": true
+      },
+      "apigusEast1slappbooksapigetTransactionByIdget": {
+        "name": "apigusEast1slappbooksapigetTransactionByIdget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "slappbooksapi",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "getTransactionById",
+          "resourcePath": "/getTransactionById",
+          "restMethod": "GET",
+          "proxyIntegration": true,
+          "stageMode": 0,
+          "stageName": "Prod"
+        },
+        "globallyEditable": true
+      },
+      "apigusEast1slappbooksapiaddTransactionpost": {
+        "name": "apigusEast1slappbooksapiaddTransactionpost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "slappbooksapi",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "addTransaction",
+          "resourcePath": "/addTransaction",
+          "restMethod": "POST",
+          "enableCORS": true,
+          "stageMode": 0,
+          "stageName": "Prod"
+        },
+        "globallyEditable": true
+      },
+      "apigusEast1slappbooksapicreateEntitypost": {
+        "name": "apigusEast1slappbooksapicreateEntitypost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "slappbooksapi",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "createEntity",
+          "resourcePath": "/createEntity",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": true,
+          "stageMode": 0,
+          "stageName": "Prod"
+        },
+        "globallyEditable": true
+      },
+      "apigusEast1slappbooksapideleteEntitypost": {
+        "name": "apigusEast1slappbooksapideleteEntitypost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "slappbooksapi",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "deleteEntity",
+          "resourcePath": "/deleteEntity",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": true,
+          "stageMode": 0,
+          "stageName": "Prod"
+        },
+        "globallyEditable": true
+      },
+      "apigusEast1slappbooksapideleteTransactionpost": {
+        "name": "apigusEast1slappbooksapideleteTransactionpost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "slappbooksapi",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "deleteTransaction",
+          "resourcePath": "/deleteTransaction",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": true,
+          "stageMode": 0,
+          "stageName": "Prod"
+        },
+        "globallyEditable": true
+      },
+      "apigusEast1slappbooksapigetMonthlyTransactionListpost": {
+        "name": "apigusEast1slappbooksapigetMonthlyTransactionListpost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "slappbooksapi",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "getMonthlyTransactionList",
+          "resourcePath": "/getMonthlyTransactionList",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": true,
+          "stageMode": 0,
+          "stageName": "Prod"
+        },
+        "globallyEditable": true
+      },
+      "apigusEast1slappbooksapicreateTransactionWithCurrencyDifferencepost": {
+        "name": "apigusEast1slappbooksapicreateTransactionWithCurrencyDifferencepost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "slappbooksapi",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "createTransactionWithCurrencyDifference",
+          "resourcePath": "/createTransactionWithCurrencyDifference",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": true,
+          "stageMode": 0,
+          "stageName": "Prod"
+        },
+        "globallyEditable": true
+      },
+      "apigusEast1slappbooksapigetTransactionListpost": {
+        "name": "apigusEast1slappbooksapigetTransactionListpost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "slappbooksapi",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "getTransactionList",
+          "resourcePath": "/getTransactionList",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": true,
+          "stageMode": 0,
+          "stageName": "Prod"
+        },
+        "globallyEditable": true
+      },
+      "apigusEast1slappbooksapigetTrialBalancepost": {
+        "name": "apigusEast1slappbooksapigetTrialBalancepost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "slappbooksapi",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "getTrialBalance",
+          "resourcePath": "/getTrialBalance",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": true,
+          "stageMode": 0,
+          "stageName": "Prod"
+        },
+        "globallyEditable": true
+      },
+      "apigusEast1slappbooksapiupdateTransactionpost": {
+        "name": "apigusEast1slappbooksapiupdateTransactionpost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "slappbooksapi",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "updateTransaction",
+          "resourcePath": "/updateTransaction",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": true,
+          "stageMode": 0,
+          "stageName": "Prod"
+        },
+        "globallyEditable": true
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "editable": false,
+        "isEditable": false,
+        "shouldPersist": false,
+        "displayOnly": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "version": "2.176.0",
+          "notRemovable": true,
+          "language": "nodejs",
+          "dev": true
+        },
+        "slappforge-sdk-aws": {
+          "name": "slappforge-sdk-aws",
+          "version": "0.0.5",
+          "notRemovable": false,
+          "language": "nodejs"
+        }
+      }
+    },
+    "rootNode": "261bafd6-e58c-475d-9415-c1a9385d5243",
+    "triggers": {
+      "apigusEast1slappbooksapiaddTransactionpost": {
+        "6ce22331-3d5d-4d2e-a5ff-a2f2b38257dd": {}
+      },
+      "apigusEast1slappbooksapigetTransactionListpost": {
+        "0cafcfb9-14f8-4cdc-861f-299678af0759": {}
+      },
+      "apigusEast1slappbooksapicreateEntitypost": {
+        "10af9bcd-ac92-434b-9eb0-ca8ff233ec9b": {}
+      },
+      "apigusEast1slappbooksapigetTransactionByIdget": {
+        "1f616325-bebd-4cb6-9a59-efae98b7760d": {}
+      },
+      "apigusEast1slappbooksapigetEntityListget": {
+        "d5e8f837-33f8-4736-ba1b-eb1f3aface18": {}
+      },
+      "apigusEast1slappbooksapicreateTransactionWithCurrencyDifferencepost": {
+        "02bc79d4-d52f-4002-b502-992569e9d409": {}
+      },
+      "apigusEast1slappbooksapiupdateTransactionpost": {
+        "d5925ac9-5dfa-4cc8-9963-15dd6fb40204": {}
+      },
+      "apigusEast1slappbooksapideleteTransactionpost": {
+        "0fddcfbb-9df4-458a-a743-9f28159227fc": {}
+      },
+      "apigusEast1slappbooksapigetMonthlyTransactionListpost": {
+        "0b73f184-a777-475d-9741-bf94b7a4629a": {}
+      }
+    },
+    "additionalFiles": [
+      {
+        "content": "module.exports = function () {\n this.dbConnections = [];\n this.dbConnections[\"slappbooksdb\"] = {\n host: process.env.EndPoint_rdsSlappbooksdb,\n port: process.env.Port_rdsSlappbooksdb,\n user: process.env.User_rdsSlappbooksdb,\n password: process.env.Password_rdsSlappbooksdb,\n database: \"slappbooksdb\"\n };\n};",
+        "filePath": "slappbooks/ConnectionManager.js",
+        "fileName": "ConnectionManager.js",
+        "showFileOnSideBar": true
+      }
+    ],
+    "lambdaId": "6ce22331-3d5d-4d2e-a5ff-a2f2b38257dd"
+  },
+  "PROJECT_META": {
+    "projectName": "slappbooks",
+    "projectDescription": "slappbooks",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1585507273117
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "slappbooks",
+      "url": "https://github.com/edfig/slappbooks"
+    }
+  }
+}
